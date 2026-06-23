@@ -98,8 +98,8 @@ psutil    # Для информации о процессах
 
 1. **Клонируйте репозиторий**
 ```bash
-git clone https://github.com/yourusername/autotext.git
-cd autotext
+git clone https://github.com/killometrs/autoclicker.git
+cd autoclicker
 ```
 
 2. **Установите зависимости**
@@ -109,7 +109,7 @@ pip install -r requirements.txt
 
 3. **Запустите программу**
 ```bash
-python autotext.py
+python autoclicker.py
 ```
 
 ### Способ 2: Создание requirements.txt
@@ -125,7 +125,7 @@ psutil>=5.9.0
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --name "KeyMouseCatcher" autotext.py
+pyinstaller --onefile --windowed --name "KeyMouseCatcher" autoclicker.py
 ```
 
 ---
